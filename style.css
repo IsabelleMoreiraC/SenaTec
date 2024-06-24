@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  font-family: Times New Roman, Arial;
+   
+  color: #f2f2f2;
+  background-color:#0F0147;
+   margin: 0;
+   padding: 0;
+}
+
+}
+ Section{
+  margin:0 auto;
+   padding: 10px 0;
+   text-align: center;
+ }
+   Section section{
+     width:100%;
+   }
+p{
+  font-size:20px;
+  line-height:1,5;
+  text-align:justify;
+   color: #eeeae7;
+  margin-left:10%;
+  margin-right:10%;
+  padding-left:0;
+}
+li{
+  line-height:1,5;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size:20px;   
+  list-style-type: circle;
+  padding-left:0;
+  margin-left:15%;
+  margin-right:15%;
+}
+
+.Principal{
+   background-color:#e6e6e6;
+      height:40px;
+   max-width:45%;
+    margin:0 auto;
+  
+
+}
+ 
+a{
+  color:#eeeae7;
+  font-weight:400;
+  font-size: 16px;
+  text-decoration: underline dotted #999999;
+}
+
+ 
+
+h2{
+  font-size: 50px;
+}
+h1{
+  text-align: center;
+  font-size: 55px;
+}
+h1{
+  color:#dedede;
+  text-decoration: underline wavy #999999;
+  text-align: center;
+  font-size: 55px;
+   
+}
+H2, H3{
+  color:#999999;
+   }
+img{
+  width: 45%;
+  border:none;
+}
+H3{
+  font-size:40px;
+}
+.Quem-somos{
+
+  width: 70%;
+  border:none;
+  margin:0 auto;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+  
+.Navegavel{
+  text-align: center;
+  display: inline-block;
+  width:40%;
+  margin: 0 50px;  
+ 
+}
