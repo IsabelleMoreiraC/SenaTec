@@ -7,8 +7,16 @@ body{
    margin: 0;
    padding: 0;
 }
-
+.Finalizacao{
+  text-align: center;
+  margin-left:25%;
+  margin-right:25%;
+  padding-left:0;
+  
+  
 }
+
+
  Section{
   margin:0 auto;
    padding: 10px 0;
@@ -76,12 +84,13 @@ img{
   width: 45%;
   border:none;
 }
-H3{
-  font-size:40px;
+h3{
+  font-size:30px;
+  text-align: center;
 }
 .Quem-somos{
 
-  width: 70%;
+  width: 55%;
   border:none;
   margin:0 auto;
   padding: 0;
@@ -93,9 +102,75 @@ H3{
 }
   
 .Navegavel{
-  text-align: center;
-  display: inline-block;
-  width:40%;
-  margin: 0 50px;  
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
  
+}
+.Navegavel li {
+  display: inline-block;
+  margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+.Navegavel img {
+  width: 200px; /* Tamanho dos ícones, ajuste conforme necessário */
+
+}
+ .top-nav {
+   background-color: #00b9ff;
+   color: white;
+   border-bottom: 1px solid #ffffff;
+   padding: 10px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+ }
+ .top-nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 10;
+   overflow: hidden;
+ }
+ .top-nav li {
+   float: left;
+   display: inline;
+   margin-right: 20px;
+ }
+ .top-nav a {
+   font-size: 20px;
+   text-decoration: none;
+   color: #ffffff;
+   
+ }
+ body {
+   padding-top: 10px; /* Ajuste de espaçamento para não sobrepor o conteúdo */
+ }
+
+h4{
+  font-size:20px;
+}
+.Navegavel2 {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Navegavel2 li {
+  display: inline-block;
+  margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+.Navegavel2 img {
+  width: 150px; /* Tamanho dos ícones, ajuste conforme necessário */
+ 
+}
+p{
+  margin-right: 17%;
+  margin-left: 17%;
 }
