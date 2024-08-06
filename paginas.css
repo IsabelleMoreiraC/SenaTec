@@ -23,17 +23,41 @@ p{
   margin-right:10%;
   padding-left:0;
 }
-li{
-  display:flex;
-  line-height: 2.5;
-  margin: 0 20%;
- align-items: center;
-  justify-content: space-between;
-}
-ul{
-  list-style-type:none;
-  padding-left: 0;
-  margin:auto;
+  nav.Principal {
+    background-color: #00b9ff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  nav.Principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav.Principal ul li {
+    display: inline;
+  }
+
+  nav.Principal ul li a {
+    color: white;
+    display: inline-block;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  nav.Principal ul li a:hover {
+    background-color: #5ecff7;
+  }
+
+  section {
+    padding: 60px 20px 20px; /* Ajuste o padding superior para considerar a altura da barra de navegação fixa */
+  }
+
    
 }
 .Principal{
